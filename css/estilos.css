@@ -1,0 +1,132 @@
+@font-face{
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+*{font-family: Roboto;}
+
+body {
+  background-color: #ff4000;
+  margin: 0;
+}
+
+.text-uppercase{text-transform: uppercase;}
+
+.chat_box, .msg_box {
+  cursor: pointer;
+  background: white;
+  width: 250px;
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.chat_head{font-size: 20px;text-align: center;}
+
+.msg_head{text-align: start;}
+
+.chat_head, .msg_head {
+  background-color: #0db5bf;
+  padding: 15px;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.chat_body {
+  height: 400px;
+}
+
+.msg_body {
+  height: 300px;
+  font-size: 12px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.msg_head {
+  background: #000;
+}
+
+.msg_input {
+  width: 100%;
+  padding: 5px 5px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: transparent;
+  border-top: 1px solid #bdc3c7;
+}
+
+.user {
+  padding: 20px;
+  position: relative;
+}
+.user:hover {
+  background: #f8f8f8;
+}
+.user:before {
+  position: absolute;
+  background: green;
+  content: "";
+  left: 8px;
+  top: 24px;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.msg_box {
+  background: white;
+  width: 250px;
+  bottom: -5px;
+}
+
+.msg_a {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 15px;
+  min-height: 15px;
+  background: #bdc3c7;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.msg_a:before {
+  content: "";
+  width: 0;
+  position: absolute;
+  height: 0;
+  top: 7px;
+  left: -29px;
+  border: 15px solid;
+  border-color: transparent #bdc3c7 transparent transparent;
+}
+
+.msg_b {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 15px;
+  min-height: 15px;
+  background: #ffff99;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.msg_b:before {
+  content: "";
+  width: 0;
+  position: absolute;
+  height: 0;
+  top: 7px;
+  right: -29px;
+  border: 15px solid;
+  border-color: transparent transparent transparent #ffff99;
+}
+
+.close {
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
