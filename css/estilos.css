@@ -10,6 +10,11 @@ body {
   margin: 0;
 }
 
+.center{margin: 40px 310px;}
+.titulo{font-size: 100px !important;}
+.subtitulo{text-align: center;font-size:70px !important;}
+.subtitulo spam{text-align: center;font-size:40px !important;}
+
 .text-uppercase{text-transform: uppercase;}
 
 .chat_box, .msg_box {
